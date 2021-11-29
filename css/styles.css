@@ -1,0 +1,231 @@
+/* цвет заголовка h1 #FFFFFF*/
+/* цвет заголовка h2 #212121*/
+/* цвет текста просрачный #757575*/
+
+/*#2196F3 один из основных цветов бирюзовый*/
+/* цвет ссылок #E5E5E5*/
+:root {
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --text-color-zag: #212121;
+    --background-color: #FFFFFF;
+    --fon-background-color: #E5E5E5;
+    --fon-background-color-two: #F5F4FA;
+    --fon-background-color-footer: #2F303A;
+}
+body {
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
+/* шапка страницы*/
+.logo {
+    color: var(--text-color-zag);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.logo.wite {
+    background-color: var(--fon-background-color-footer);
+    color: var(--background-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.logo-cap {
+    color: var(--accent-color);
+}
+.point {
+    list-style: none;
+}
+/*.list {
+    list-style: none;ъ
+} для сбросывания стиля к примера на точках в списке*/
+.site-nav .link {
+    color: var(--text-color-zag);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    text-decoration: none;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color:var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.auth-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    text-decoration: none;
+
+}
+.auth-nav .link:hover, 
+.auth-nav .link:focus  {
+    color: var(--accent-color);
+
+}
+
+/* цвет страницы*/
+.title.uppercase {
+text-transform: uppercase; 
+}
+.section .section-zag {
+    color: var(--text-color-zag);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;  
+}
+.clients > .section-zag {
+    color: var(--background-color); 
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4; 
+    text-align: center;
+    background-color: var(--text-color-zag);
+}
+.feature-list .title {
+    color: var(--text-color-zag);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1; 
+}
+.feature-list .text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9; 
+}
+.wite {
+    background-color: var(--fon-background-color);
+}
+.grey {
+    background-color: var(--fon-background-color-two);
+}
+.Portfoll {
+    background-color: var(--fon-background-color);
+}
+.color.footer {
+    background-color: var(--fon-background-color-footer);
+}
+.ridik {
+    color: var(--background-color);
+    border: 1px solid var(--accent-color);
+}
+.ridik :hover,
+.ridik :focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+.ridik > .title {
+    color: var(--text-color-zag);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.ridik > .text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+
+}
+.point > .employee {
+    color: var(--text-color-zag);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.point > .texticon {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+
+/* кнопки*/
+.button {
+    color: var(--text-color-zag);
+    background-color: var(--accent-color);
+}
+
+
+/*button{
+    font-family: inherit;
+}*/
+.button.primary {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+.button.secondary {
+    color: var(--accent-color);
+    background-color: var(--background-color);
+    cursor: pointer;
+}
+.button.edit {
+    color: var(--background-color)
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    font-family: inherit;
+}
+
+
+.buttonzz.primary {
+    color: var(--background-color);
+    background-color:var(--accent-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.buttonzz.secondary {
+    color: var(--text-color-zag);
+    background-color: var(--background-color);
+    cursor: pointer;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.buttonzz.secondary:hover,
+.buttonzz.secondary:focus {
+    background-color:var(--accent-color);
+    color: var(--background-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* футер*/
+
+.rgb.link{
+    color:rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: initial;
+}
+.rgb.link:hover,
+.rgb.link:focus {
+    color: var(--accent-color);
+    
+}
+.pfooter {
+    color: var(--background-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
