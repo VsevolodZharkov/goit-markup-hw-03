@@ -20,6 +20,7 @@ body {
     font-size: 14px;
     line-height: 1.7;
 }
+
 /* шапка страницы*/
 .logo {
     color: var(--text-color-zag);
@@ -61,6 +62,10 @@ body {
 .site-nav .link.current {
     color: var(--accent-color);
 }
+.site-nav {
+    margin: 0;
+    padding: 0;
+}
 .auth-nav .link {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -74,24 +79,33 @@ body {
     color: var(--accent-color);
 
 }
+.auth-nav {
+    margin: 0;
+    padding: 0;
+}
 
 /* цвет страницы*/
 .title.uppercase {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
 text-transform: uppercase; 
 }
 .section .section-zag {
     color: var(--text-color-zag);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
-    text-align: center;  
+    line-height: 1.2; 
 }
+.containersbox .section.clients {
+    text-align: center;
+}
+
 .clients > .section-zag {
     color: var(--background-color); 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4; 
-    text-align: center;
     background-color: var(--text-color-zag);
 }
 .feature-list .title {
@@ -141,19 +155,23 @@ text-transform: uppercase;
 
 }
 .point > .employee {
+    padding: 0;
+    margin: 0;
+
     color: var(--text-color-zag);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
 }
 .point > .texticon {
+    padding: 0;
+    margin: 0;
+
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
 }
-
-
 /* кнопки*/
 .button {
     color: var(--text-color-zag);
@@ -175,7 +193,11 @@ text-transform: uppercase;
     cursor: pointer;
 }
 .button.edit {
-    color: var(--background-color)
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    
+    color: var(--background-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -223,9 +245,45 @@ text-transform: uppercase;
     
 }
 .pfooter {
+    margin: 0;
+    padding: 0;
     color: var(--background-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
+/*контейнер*/
+.containersbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding: 0 15px;
+
+    outline: 2px solid tomato;
+}
+.section.clients  .containersbox .section-zag {
+    margin: 0px 0px 30px 0px;
+    padding: 0;
+}
+/*.containersbox .section.clients .button.edit {
+    
+}*/
+
+.section.wite  .containersbox .feature-list {
+    margin: 0;
+    padding: 0;
+}
+.section.grey .containersbox .feature-list {
+    margin: 0;
+    padding: 0;
+}
+.section.wite  .containersbox .section-zag {
+    margin: 0;
+    padding: 0;
+}
+.section.grey .containersbox .section-zag {
+    margin: 0;
+    padding: 0;
+}
+
 
