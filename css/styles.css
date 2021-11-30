@@ -130,7 +130,7 @@ text-transform: uppercase;
 .grey {
     background-color: var(--fon-background-color-two);
 }
-.Portfoll {
+.portfoll {
     background-color: var(--fon-background-color);
 }
 .color.footer {
@@ -219,6 +219,10 @@ text-transform: uppercase;
     line-height: 1.6;
 }
 .buttonzz.secondary {
+    padding: 6px 22px;
+    border-radius: 4px;
+    
+
     color: var(--text-color-zag);
     background-color: var(--background-color);
     cursor: pointer;
@@ -321,4 +325,23 @@ text-transform: uppercase;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
+.nonecss {
+    margin: 0;
+    padding: 0;
+}
+.nimfa {
+    margin-top: 0;
+    margin-bottom: 20px; 
+}
+.ridik h2{
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.ridik p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.portfoll .containersbox {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
