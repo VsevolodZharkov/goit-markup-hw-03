@@ -21,6 +21,17 @@ body {
     line-height: 1.7;
 }
 
+.point {
+    list-style: none;
+}
+.site-nav {
+    margin: 0;
+    padding: 0;
+}
+.auth-nav {
+    margin: 0;
+    padding: 0;
+}
 /* шапка страницы*/
 .logo {
     color: var(--text-color-zag);
@@ -46,13 +57,30 @@ body {
     display: block;
     margin-bottom: 20px;
 }
-.point {
-    list-style: none;
-}
+
 /*.list {
     list-style: none;ъ
 } для сбросывания стиля к примера на точках в списке*/
+.site-nav {
+    display: flex;
+    margin-left: 93px;
+}
+
+.site-nav .point + .point{
+    margin-left: 50px;
+}
+
+/*.site-nav .point:not(:last-child){
+    margin-right: 0px;
+} мард прав прим ко всем кроме послед ребенка*/
+/*.site-nav .point + .point{
+    margin-left: 20px;
+} margin левый применится ко всем кроме первого елемента */
 .site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--text-color-zag);
     font-weight: 500;
     font-size: 14px;
@@ -66,9 +94,12 @@ body {
 .site-nav .link.current {
     color: var(--accent-color);
 }
-.site-nav {
-    margin: 0;
-    padding: 0;
+.auth-nav {
+    display: flex;
+    margin-left: auto;
+}
+.auth-nav .point + .point{
+    margin-left: 50px;
 }
 .auth-nav .link {
     color: var(--primary-text-color);
@@ -83,9 +114,10 @@ body {
     color: var(--accent-color);
 
 }
-.auth-nav {
-    margin: 0;
-    padding: 0;
+/*хедер*/
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 
 /* цвет страницы*/
