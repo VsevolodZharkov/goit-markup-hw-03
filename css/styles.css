@@ -78,7 +78,7 @@ body {
     margin-right: 0px;
 } мард прав прим ко всем кроме послед ребенка*/
 /*.site-nav .point + .point{
-    margin-left: 20px;
+    margin-right: 0;
 } margin левый применится ко всем кроме первого елемента */
 .site-nav .link {
     display: block;
@@ -406,9 +406,6 @@ body {
 }
 .point.standup:nth-child(4n){
     margin-right: 0;
-}
-.section.wite.two .containersbox .feature-list.tolk .point.gopro {
-
 }
 
 
