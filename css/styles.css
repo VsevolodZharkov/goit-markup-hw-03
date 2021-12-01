@@ -32,6 +32,10 @@ body {
     margin: 0;
     padding: 0;
 }
+.point .texticon{
+    padding: 0;
+    margin: 0;
+}
 /* шапка страницы*/
 .logo {
     color: var(--text-color-zag);
@@ -122,27 +126,31 @@ body {
 
 /* цвет страницы*/
 .title.uppercase {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--text-color-zag);
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
-text-transform: uppercase; 
+    text-transform: uppercase; 
 }
+
 .section .section-zag {
     color: var(--text-color-zag);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2; 
 }
-.containersbox .section.clients {
+.section.clients .containersbox {
     text-align: center;
 }
 
-.clients > .section-zag {
+.clients .containersbox .section-zag {
     color: var(--background-color); 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4; 
-    background-color: var(--text-color-zag);
 }
 .feature-list .title {
     color: var(--text-color-zag);
@@ -155,6 +163,9 @@ text-transform: uppercase;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9; 
+}
+.section.clients {
+    background-color:var(--text-color-zag);
 }
 .wite {
     background-color: var(--fon-background-color);
@@ -199,15 +210,13 @@ text-transform: uppercase;
     font-size: 16px;
     line-height: 1.2;
 }
-.point > .texticon {
-    padding: 0;
-    margin: 0;
-    
-
+.point .texticon {
     color: var(--primary-text-color);
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+
 }
 /* кнопки*/
 .button {
@@ -233,7 +242,7 @@ text-transform: uppercase;
     display: inline-block;
     padding: 10px 32px;
     border-radius: 4px;
-    
+
     color: var(--background-color);
     font-weight: 700;
     font-size: 16px;
@@ -310,9 +319,11 @@ text-transform: uppercase;
 
     outline: 2px solid tomato;
 }
+
 .section.clients  .containersbox .section-zag {
     margin: 0px 0px 30px 0px;
     padding: 0;
+
 }
 /*.containersbox .section.clients .button.edit {
     
@@ -344,6 +355,7 @@ text-transform: uppercase;
 .section.wite.two .containersbox .section-zag.tom {
     margin-top: 0;
     margin-bottom: 50px;
+    text-align: center;
 }
 .section.grey .containersbox {
     padding-top: 94px;
@@ -377,3 +389,26 @@ text-transform: uppercase;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+/*контейнер белый первый*/
+
+.section.wite.one .containersbox .feature-listread {
+    display: flex;
+}
+.feature-listread {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.point.standup {
+    height: 101px;
+    width: calc((100% - 90px) / 4);
+    margin-right: 30px;
+}
+.point.standup:nth-child(4n){
+    margin-right: 0;
+}
+.section.wite.two .containersbox .feature-list.tolk .point.gopro {
+
+}
+
+
