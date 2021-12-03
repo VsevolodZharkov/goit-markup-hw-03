@@ -310,9 +310,12 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    font-style: initial;
+}
 }
 .ninepx {
     margin-bottom: 9px;
+}
 }
 /*контейнер*/
 .containersbox {
@@ -320,8 +323,7 @@ body {
     margin-right: auto;
     width: 1170px;
     padding: 0 15px;
-
-    outline: 2px solid tomato;
+    
 }
 
 .section.clients  .containersbox .section-zag {
@@ -375,7 +377,6 @@ body {
 }
 .nonecss {
     margin: 0;
-    margin-bottom: 50px;
     padding: 0;
 }
 .nimfa {
@@ -439,9 +440,14 @@ body {
 /*.containersbox {
     display: flex;
 }*/
+.portfoll .containersbox.one {
+    padding-top: 94px;]
+    padding-bottom: 50px;
+}
 .portfoll .containersbox .nonecss {
     display: flex;
     justify-content: center;
+    
 }
 .portfoll .containersbox .nonecss .point.batman {
     height: 38px;
@@ -449,6 +455,9 @@ body {
 }
 .portfoll .containersbox .nonecss .point.batman:nth-child(5n){
     margin-right: 0;
+}
+.portfoll .containersbox.two {
+    padding-top: 0;
 }
 .portfoll .containersbox.two .list.ok {
     display: flex;
