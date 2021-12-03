@@ -36,6 +36,12 @@ body {
     padding: 0;
     margin: 0;
 }
+.containersbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding: 0 15px;
+}
 /* шапка страницы*/
 .logo {
     color: var(--text-color-zag);
@@ -216,8 +222,6 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    text-align: center;
-
 }
 .djeki {
     text-align: center;
@@ -318,13 +322,7 @@ body {
 }
 }
 /*контейнер*/
-.containersbox {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1170px;
-    padding: 0 15px;
-    
-}
+
 
 .section.clients  .containersbox .section-zag {
     margin: 0px 0px 30px 0px;
@@ -370,6 +368,7 @@ body {
 .section.grey .containersbox .section-zag.jerry {
     margin-top: 0;
     margin-bottom: 50px;
+    text-align: center;
 }
 .color.footer .containersbox {
     padding-top: 60px;
@@ -432,6 +431,7 @@ body {
     height: 368px;
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
+    text-align: center;
 }
 .section.grey .containersbox .feature-list .point:nth-child(4n){
     margin-right: 0;
