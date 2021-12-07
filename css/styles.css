@@ -149,6 +149,7 @@ ul,p {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 .footer-span {
@@ -160,6 +161,7 @@ ul,p {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    font-style: initial;
 }
 
 .footer-link {
@@ -167,6 +169,8 @@ ul,p {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
+    font-style: initial;
 }
 
 
