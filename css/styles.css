@@ -10,14 +10,33 @@
 }
 body {
     color: var(--primary-text-color);
-    background-color: var(--background-color);
+    background-color:teal;
     font-family: Roboto, sans-serif; 
 }
-/*         плагины       */
-ul,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul, ol {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
+}
+
+
+/*         плагины       */
 .indent {
     padding: 0 15px;
 }
@@ -69,6 +88,12 @@ ul,p {
 .header-point {
     list-style: none;
 }
+.header-containers {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
 
 /*       main          */
 
@@ -94,6 +119,17 @@ ul,p {
     font-family: inherit;
     cursor: pointer;
 }
+.section-hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.section-hero-containers {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
+
 
 /*        section-criteria        */
 
@@ -112,6 +148,16 @@ ul,p {
     font-size: 14px;
     line-height: 1.71;
 }
+.section-criteria {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-criteria-containers {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
 
 
 /*        section-work        */
@@ -121,6 +167,16 @@ ul,p {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+}
+.section-work {
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+.section-work-containers {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
 }
 
 /*        section-team        */
@@ -143,6 +199,17 @@ ul,p {
     font-size: 16px;
     line-height: 1.18;
 }
+.section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-team-containers {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
+
 
 /*          portfoll         */      
 
@@ -151,6 +218,18 @@ ul,p {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+}
+.portfoll-btn {
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    font-family: inherit;
 }
 .portfoll-title {
     color: var(--text-color-zag);
@@ -165,6 +244,25 @@ ul,p {
     line-height: 1.87;
 }
 
+.portfoll {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.portfoll-container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
+.portfoll-feature-listread {
+    margin-bottom: 50px;
+}
+.portfoll-containers-list {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
 /*     footer    */
 
 .footer-logo {
@@ -196,10 +294,12 @@ ul,p {
 .footer-link:focus {
     color: var(--accent-color);
 }
-
-/*      контейнер      */
-
-.header-containers {
+.footer {
+    background-color:var(--fon-background-color-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-containers {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
