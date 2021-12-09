@@ -8,6 +8,7 @@
     --fon-background-color-two: #F5F4FA;
     --fon-background-color-footer: #2F303A;
     --border-line-heder: #ECECEC;
+    --border-icon: #EEEEEE;
 }
 body {
     color: var(--primary-text-color);
@@ -374,9 +375,9 @@ img {
 }
 .card {
     padding:20px 24px;
-    border-bottom: 1px solid var(--accent-color);
-    border-right: 1px solid var(--accent-color);
-    border-left: 1px solid var(--accent-color);
+    border-bottom: 1px solid var(--border-icon);
+    border-right: 1px solid var(--border-icon);
+    border-left: 1px solid var(--border-icon);
 }
 
 /*.card:hover,
