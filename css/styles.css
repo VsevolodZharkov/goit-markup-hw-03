@@ -124,7 +124,6 @@ img {
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
 }
 .header-link {
     display: block;
@@ -188,7 +187,6 @@ img {
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
 }
 
 
@@ -225,7 +223,6 @@ img {
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
 }
 .section-criteria-feature-listread {
     display: flex;
@@ -324,7 +321,6 @@ img {
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
 }
 
 .section-team-feature-list {
@@ -408,7 +404,6 @@ img {
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
 }
 .portfoll-feature-listread {
     margin-bottom: 50px;
@@ -426,7 +421,6 @@ img {
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
 }
 .portfoll-feature-listread-new {
     display: flex;
@@ -511,372 +505,4 @@ img {
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
-}
-
-
-
-
-/*       */
-
-
-/*button{
-    font-family: inherit;
-}*//*
-.button.primary {
-    color: var(--background-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
-}
-.button.secondary {
-    color: var(--accent-color);
-    background-color: var(--background-color);
-    cursor: pointer;
-}
-.button.edit {
-    display: inline-block;
-    padding: 10px 32px;
-    border-radius: 4px;
-
-    color: var(--background-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    font-family: inherit;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*:root {
-    --primary-text-color: #757575;
-    --accent-color: #2196F3;
-    --text-color-zag: #212121;
-    --background-color: #FFFFFF;
-    --fon-background-color: #E5E5E5;
-    --fon-background-color-two: #F5F4FA;
-    --fon-background-color-footer: #2F303A;
-}
-body {
-    color: var(--primary-text-color);
-    background-color: var(--background-color);
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    line-height: 1.7;
-}
-
-.point {
-    list-style: none;
-}
-.site-nav {
-    margin: 0;
-    padding: 0;
-}
-.auth-nav {
-    margin: 0;
-    padding: 0;
-}
-.point .texticon{
-    padding: 0;
-    margin: 0;
-}
-.containersbox {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1170px;
-    padding: 0 15px;
-}
-/* шапка страницы*//*
-.logo {
-    color: var(--text-color-zag);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
-}
-.logo.wite {
-    background-color: var(--fon-background-color-footer);
-    color: var(--background-color);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
-}
-.logo-cap {
-    color: var(--accent-color);
-}
-.logo.wite.djazz {
-    display: block;
-    margin-bottom: 20px;
-}
-
-/*.list {
-    list-style: none;
-} для сбросывания стиля к примера на точках в списке*//*
-.site-nav {
-    display: flex;
-    margin-left: 93px;
-}
-
-.site-nav .point + .point{
-    margin-left: 50px;
-}
-
-/*.site-nav .point:not(:last-child){
-    margin-right: 0px;
-} мард прав прим ко всем кроме послед ребенка*/
-/*.site-nav .point + .point{
-    margin-right: 0;
-} margin левый применится ко всем кроме первого елемента *//*
-.site-nav .link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-    color: var(--text-color-zag);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    text-decoration: none;
-}
-.site-nav .link:hover, 
-.site-nav .link:focus {
-    color:var(--accent-color);
-}
-.site-nav .link. {
-    color: var(--accent-color);
-}
-.auth-nav {
-    display: flex;
-    margin-left: auto;
-}
-.auth-nav .point + .point{
-    margin-left: 50px;
-}
-.auth-nav .link {
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    text-decoration: none;
-
-}
-.auth-nav .link:hover, 
-.auth-nav .link:focus  {
-    color: var(--accent-color);
-
-}
-/*хедер*//*
-.main-nav {
-    display: flex;
-    align-items: center;
-}
-
-/* цвет страницы*//*
-.title.uppercase {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    color: var(--text-color-zag);
-    margin: 0;
-    margin-bottom: 10px;
-    padding: 0;
-    text-transform: uppercase; 
-}
-
-.section .section-zag {
-    color: var(--text-color-zag);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2; 
-}
-.section.clients .containersbox {
-    text-align: center;
-}
-
-.clients .containersbox .section-zag {
-    color: var(--background-color); 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4; 
-}
-.feature-list .title {
-    color: var(--text-color-zag);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1; 
-}
-.feature-list .text {
-    color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9; 
-}
-.section.clients {
-    background-color:var(--text-color-zag);
-}
-.wite {
-    background-color: var(--fon-background-color);
-}
-.grey {
-    background-color: var(--fon-background-color-two);
-}
-.portfoll {
-    background-color: var(--fon-background-color);
-}
-.color.footer {
-    background-color: var(--fon-background-color-footer);
-}
-.ridik {
-    color: var(--background-color);
-    border: 1px solid var(--accent-color);
-}
-.ridik :hover,
-.ridik :focus {
-    color: var(--accent-color);
-    border: 1px solid var(--accent-color);
-}
-.ridik > .title {
-    color: var(--text-color-zag);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-}
-.ridik > .text {
-    color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9;
-
-}
-.point > .employee {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 10px;
-
-    color: var(--text-color-zag);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-}
-.point .texticon {
-    color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-}
-.djeki {
-    text-align: center;
-}
-/* кнопки*//*
-.button {
-    color: var(--text-color-zag);
-    background-color: var(--accent-color);
-}
-
-
-/*button{
-    font-family: inherit;
-}*//*
-.button.primary {
-    color: var(--background-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
-}
-.button.secondary {
-    color: var(--accent-color);
-    background-color: var(--background-color);
-    cursor: pointer;
-}
-.button.edit {
-    display: inline-block;
-    padding: 10px 32px;
-    border-radius: 4px;
-
-    color: var(--background-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    font-family: inherit;
-}
-
-
-.buttonzz.primary {
-    color: var(--background-color);
-    background-color:var(--accent-color);
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-}
-.buttonzz.secondary {
-    padding: 6px 22px;
-    border-radius: 4px;
-    
-
-    color: var(--text-color-zag);
-    background-color: var(--background-color);
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-}
-.buttonzz.secondary:hover,
-.buttonzz.secondary:focus {
-    background-color:var(--accent-color);
-    color: var(--background-color);
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-/* футер*/
-/*
-.rgb.link{
-    color:rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    font-style: initial;
-}
-
-.rgb.link:hover,
-.rgb.link:focus {
-    color: var(--accent-color);  
-}
-.rgb.link.red {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 9px;
-}
-.pfooter {
-    margin: 0;
-    padding: 0;
-    color: var(--background-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    font-style: initial;
-}
-
-/*контейнер белый первый*//*
-
-.section.wite.two .containersbox .feature-list.tolk .point.gopro {
-    height: 294px;
-    width: calc((100% - 60px) / 3);
-    margin-right: 30px;
-}
-.section.wite.two .containersbox .feature-list.tolk .point.gopro:nth-child(3n){
-    margin-right: 0;
 }
